@@ -8,17 +8,25 @@ class App extends Component {
       <div className="App">
 
         <header class="container">
-          <h1 class="col-lg-4">Samantha Coe</h1>
+          <h1 class="col-lg-12">Samantha Coe</h1>
         </header>
 
         <div class="row">
-          <h3 class="col-lg-3">info</h3>
-          <h3 class="col-sm-6">Hello</h3>
+          <h4 class="col-lg-3">info</h4>
+          <h5 id="description" class="col-sm-6">Hello! I am a sophomore at Purdue University studying Computer Science with a minor in French.
+            I have an interest in full-stack development but I have a natural curiousity for learning anything new! Please do not
+            hesitate to contact me!
+          </h5>
         </div>
 
         <div class="container">
-          <h3 class="col-lg-3">projects</h3>
-          <h3 class="col-sm-6">ksd</h3>
+          <h4 class="col-lg-3">projects</h4>
+          <h5 id="description" class="col-sm-6"> <a href="https://github.com/coe6/spark-app/tree/master" target="_blank">SPARK!</a> is an iOS app designed to test the user's ability to memorize a sequence of colors.</h5>
+          <img class="projects" src="assets/spark.png"/>
+
+          <h5 id="description" class="col-sm-6"><a href="https://github.com/coe6/Pic-a-Puppy-GUS-" target="_blank">Pic-A-Puppy</a></h5>
+          <img class="projects" src="assets/pic-a-puppy.png"/>
+
         </div>
       
         <footer class="container">
@@ -41,7 +49,7 @@ class App extends Component {
                   </a>
                 </li>
                 <li class="col-sm-1">
-                  <a href="/SamCoe_resume.pdf" target="_blank">
+                  <a href="/assets/SamCoe_resume.pdf" target="_blank">
                     <img src="assets/document.png"/>
                   </a>
                 </li>
