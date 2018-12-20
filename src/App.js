@@ -11,8 +11,8 @@ class App extends Component {
           <h1 class="col-lg-12">Samantha Coe</h1>
         </header>
 
-        <div class="row">
-          <h4 class="col-lg-3">info</h4>
+        <div class="container">
+          <h4 id="label" class="col-lg-3">info</h4>
           <h5 id="description" class="col-sm-6">Hello! I am a sophomore at Purdue University studying Computer Science with a minor in French.
             I have an interest in full-stack development but I have a natural curiousity for learning anything new! Please do not
             hesitate to contact me!
@@ -20,12 +20,15 @@ class App extends Component {
         </div>
 
         <div class="container">
-          <h4 class="col-lg-3">projects</h4>
-          <h5 id="description" class="col-sm-6"> <a href="https://github.com/coe6/spark-app/tree/master" target="_blank">SPARK!</a> is an iOS app designed to test the user's ability to memorize a sequence of colors.</h5>
-          <img class="projects" src="assets/spark.png"/>
+          <h4 id="label" class="col-lg-3">projects</h4>
 
-          <h5 id="description" class="col-sm-6"><a href="https://github.com/coe6/Pic-a-Puppy-GUS-" target="_blank">Pic-A-Puppy</a></h5>
-          <img class="projects" src="assets/pic-a-puppy.png"/>
+          <div class="container">
+            <h5 id="description" class="col-sm-6"> <a href="https://github.com/coe6/spark-app/tree/master" target="_blank">SPARK!</a> is an iOS app designed to test the user's ability to memorize a sequence of colors.</h5>
+            <img class="projects" src="https://media.giphy.com/media/iO7HX7uu2totLccFfx/giphy.gif"/>
+
+            <h5 id="description" class="col-sm-12"><a href="https://github.com/coe6/Pic-a-Puppy-GUS-" target="_blank">Pic-A-Puppy</a></h5>
+            <img class="projects" src="https://media.giphy.com/media/2WdEk8ApcKohbl5pnS/giphy.gif"/>
+          </div>
 
         </div>
       
