@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+html {
+  scroll-behavior: smooth;
+  offset: top;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -25,6 +32,7 @@ footer .col-sm-8 {
 
 footer ul {
   list-style: none;
+  font-size: 24px;
 }
 
 footer li img {
@@ -39,15 +47,16 @@ footer li img {
 
 #description {
   text-align: justify;
-  float: right;
   margin-bottom: 60px;
 }
 
 h1 {
-  font-size: 60px;
+  color: black;
+  font-size: 90px;
   text-align: left;
-  margin-top: 50px;
-  margin-bottom: 15px;
+  margin: 150px 0px 20px 25px;
+  font-family: 'Roboto Slab', serif;
+  /* background-image: url(https://img1.picmix.com/output/stamp/normal/0/2/9/7/547920_b479c.gif); */
 }
 
 #label {
@@ -57,11 +66,45 @@ h1 {
 #hLINKS ul {
   list-style: none;
   text-align: center;
-  margin-left: 40px;
-  margin-bottom: 75px;
+  margin: 0px 0px 200px 75px;
+  font-size: 28px;
 }
 
 #hLINKS li img {
   width: 25px;
   height: 25px;
+}
+
+a {
+  color: #dfb5bc;
+}
+
+a:hover {
+  color: #bf8690;
+  text-decoration: none;
+}
+
+a.fa {
+  color: black;
+}
+
+a.fa:hover {
+  color: #dfb5bc;
+}
+
+.scroll {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 300px;
+}
+
+#meIMG {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  margin-bottom: 500px;
+}
+
+.fix {
+  margin-top: 50px;
 }
