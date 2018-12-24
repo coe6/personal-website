@@ -68,55 +68,42 @@ class App extends Component {
 
 
 
-      <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#spark">
-              <img class="projects" src="https://media.giphy.com/media/iO7HX7uu2totLccFfx/giphy.gif"/>
-              </a>
-            </h4>
-          </div>
-          <div id="spark" class="panel-collapse collapse">
-            <div class="panel-body"><a href="https://github.com/coe6/spark-app/tree/master" target="_blank">SPARK!</a> is an iOS app designed to test the user's ability to memorize a sequence of colors.
-              The game will display a sequence of colors and it is up to the user to recreate this pattern in order to continue to the next level. With each progressing level,
-              the game will build upon the previous pattern.</div>
-          </div>
-          </div>
+      <div class="row">
+        <h4 class="col-lg-4" id="label">projects</h4>
+        <a name="projects" class="col-lg-6"></a>
+        <div class = "col-sm-4">
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#spark">
+                  <img class="projects" src="https://media.giphy.com/media/iO7HX7uu2totLccFfx/giphy.gif"/>
+                  </a>
+                </h4>
+              </div>
+              <div id="spark" class="panel-collapse collapse">
+                <div class="panel-body"><a href="https://github.com/coe6/spark-app/tree/master" target="_blank">SPARK!</a> is an iOS app designed to test the user's ability to memorize a sequence of colors.
+                  The game will display a sequence of colors and it is up to the user to recreate this pattern in order to continue to the next level. With each progressing level,
+                  the game will build upon the previous pattern.</div>
+              </div>
+              </div>
 
-          <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#picPuppy">
-                <img class="projects" src="https://media.giphy.com/media/2WdEk8ApcKohbl5pnS/giphy.gif"/>
-              </a>
-            </h4>
+              <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#picPuppy">
+                    <img class="projects" src="https://media.giphy.com/media/2WdEk8ApcKohbl5pnS/giphy.gif"/>
+                  </a>
+                </h4>
+              </div>
+              <div id="picPuppy" class="panel-collapse collapse">
+                <div class="panel-body"><a href="https://github.com/coe6/Pic-a-Puppy-GUS-" target="_blank">Pic-A-Puppy</a> is an iOS app solely created for the purpose of displaying photos of my dog, Gus.
+                  The user is able to heart their favorite images and later view them in a separate album. The app will display the images in a random order every time the full photo album is opened.</div>
+              </div>
+              </div>
+            </div>
           </div>
-          <div id="picPuppy" class="panel-collapse collapse">
-            <div class="panel-body"><a href="https://github.com/coe6/Pic-a-Puppy-GUS-" target="_blank">Pic-A-Puppy</a> is an iOS app solely created for the purpose of displaying photos of my dog, Gus.
-              The user is able to heart their favorite images and later view them in a separate album. The app will display the images in a random order every time the full photo album is opened.</div>
-          </div>
-          </div>
-
         </div>
-
-        {/* <div class="container">
-          <button class="col-lg-6" type="button" data-toggle="collapse" data-target="#spark"><img class="projects" src="https://media.giphy.com/media/iO7HX7uu2totLccFfx/giphy.gif"/></button>
-            <div id="spark" class="collapse">
-              <p id="description" class="col-sm-6"> <a href="https://github.com/coe6/spark-app/tree/master" target="_blank">SPARK!</a> is an iOS app designed to test the user's ability to memorize a sequence of colors.
-              The game will display a sequence of colors and it is up to the user to recreate this pattern in order to continue to the next level. With each progressing level,
-              the game will build upon the previous pattern.
-              </p>
-            </div>
-
-          <button class="col-lg-6" type="button" data-toggle="collapse" data-target="#picPuppy"><img class="projects" src="https://media.giphy.com/media/2WdEk8ApcKohbl5pnS/giphy.gif"/></button>
-            <div id="picPuppy" class="collapse">
-              <p id="description" class="col-sm-12"><a href="https://github.com/coe6/Pic-a-Puppy-GUS-" target="_blank">Pic-A-Puppy</a> is an iOS app solely created for the purpose of displaying photos of my dog, Gus.
-              The user is able to heart their favorite images and later view them in a separate album. The app will display the images in a random order every time the full photo album is opened.
-              </p>
-            </div>
-
-        </div> */}
 
 
       

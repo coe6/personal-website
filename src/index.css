@@ -41,8 +41,8 @@ footer li img {
 }
 
 .projects {
-  width: 200px;
-  height: 130px;
+  width: 350px;
+  height: 250px;
 }
 
 #description {
@@ -111,3 +111,17 @@ a.fa:hover {
   margin-bottom: 500px;
 }
 
+.panel-body {
+  text-align: justify;
+  font-size: 14px;
+}
+
+.panel-default > .panel-heading {
+  background-color: white;
+  background: none;
+}
+
+.panel {
+  padding: 10px;
+  border: 1px solid #90a58c;
+}
