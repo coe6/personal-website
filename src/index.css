@@ -41,13 +41,15 @@ footer li img {
 }
 
 .projects {
-  width: 300px;
-  height: 200px;
+  width: 200px;
+  height: 130px;
 }
 
 #description {
   text-align: justify;
   margin-bottom: 60px;
+  padding: 10px;
+  border-left: 1px solid #3a7831;
 }
 
 h1 {
@@ -66,7 +68,7 @@ h1 {
 #hLINKS ul {
   list-style: none;
   text-align: center;
-  margin: 0px 0px 200px 75px;
+  margin: 0px 0px 400px 75px;
   font-size: 28px;
 }
 
@@ -76,11 +78,11 @@ h1 {
 }
 
 a {
-  color: #dfb5bc;
+  color: #3a7831;
 }
 
 a:hover {
-  color: #bf8690;
+  color: #4ad534;
   text-decoration: none;
 }
 
@@ -89,13 +91,17 @@ a.fa {
 }
 
 a.fa:hover {
-  color: #dfb5bc;
+  color: #3a7831;
 }
 
 .scroll {
+  margin-top: 15px;
   font-size: 16px;
+  list-style: none;
   text-align: center;
-  margin-bottom: 300px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 #meIMG {
@@ -105,6 +111,3 @@ a.fa:hover {
   margin-bottom: 500px;
 }
 
-.fix {
-  margin-top: 50px;
-}
