@@ -20,9 +20,18 @@ code {
     monospace;
 }
 
+p {
+  background-color: white;
+  padding: 20px;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
 footer {
   font-size: 12px;
-  padding: 20px 0;
+  padding: 15px;
 }
 
 footer .col-sm-8 {
@@ -41,13 +50,12 @@ footer li img {
 }
 
 .projects {
-  width: 350px;
-  height: 250px;
+  width: 100%;
 }
 
 #description {
   text-align: justify;
-  border-left: 1px solid #3a7831;
+  border-left: 1px solid black;
   line-height: 20px;
   padding: 10px;
   margin-bottom: 80px;
@@ -71,14 +79,32 @@ footer li img {
 #landmark {
   margin: 0;
   padding: 0;
+  top: -70px;
+}
+
+#projectLabel {
+  padding: 50px;
+  background-color: #f2f2f2;
+
+}
+
+#proj {
+  width: 35%;
+  margin: 20px;
+  display: inline-block;
+}
+
+#projectDIV {
+  width: 100%;
+  background-color: #f2f2f2;
 }
 
 a.scroll, a {
-  color: #3a7831;
+  color: #000000;
 }
 
 a.scroll:hover, a:hover {
-  color: #4ad534;
+  color: #8c8c8c;
   text-decoration: none;
 }
 
@@ -119,11 +145,9 @@ div.scroll {
 #panel {
   background-color: white;
   background: none;
-}
-
-.panel {
-  padding: 10px;
-  border: 1px solid lightgray;
+  padding: 0;
+  border: none;
+  border-radius: 0px;
 }
 
 /* #links ul {
