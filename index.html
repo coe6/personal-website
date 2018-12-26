@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>Samantha Coe</title>
+  </head>
+  <body>
+  
+    <div class="container-fluid">
+
+      <!--sticky header-->
+      <div class="scroll container">
+        <div class="scroll col-lg-5 text-left">
+          <a class="scroll" href="#top">home</a>
+          <a class="scroll" href="#info">info</a>
+          <a class="scroll" href="#projects">projects</a>
+        </div>
+      </div>
+
+      <a name="top"></a>
+
+      <!--header section-->
+      <div class="container-fluid">
+        <!---name-->
+        <h1 class="nameHead container">Samantha Coe</h1>
+
+        <!--links-->
+        <div id="links" class="container">
+          <p class="col-lg-5 text-left">
+            <a href="mailto:coe6@purdue.edu" class="fa fa-envelope"></a>
+            <a href="https://github.com/coe6" target="_blank" class="fa fa-github"></a>
+            <a href="https://www.linkedin.com/in/samantha-coe/" target="_blank" class="fa fa-linkedin-square"></a>
+            <a href="https://www.instagram.com/sam.coee/" target="_blank" class="fa fa-instagram"></a>
+            <a href="/assets/SamCoe_resume.pdf" target="_blank" class="fa fa-file-text"></a>
+          </p>
+        </div>
+      </div>
+      
+
+      <!--info-->
+      <div id="landmark" class="container">
+          <a name="info" class="col-lg-6"></a>
+      </div>
+      <div class="container-fluid text-center">
+        <!--description-->
+        <div class="row float">
+            <div class="col-lg-4 text-right">
+                <h4 id="label">info</h4>
+            </div>
+            <div class="col-lg-4">
+              <h5 id="description">Hello! I am a sophomore at Purdue University studying Computer Science with a minor in French.
+              I have an interest in full-stack development but I have a natural curiousity for learning anything new! Outside of coding, I have a passion
+              for the arts, including design, fashion, and music.
+              Please do not hesitate to contact me!
+              </h5>
+            </div>
+        </div>
+
+        <!--pic of me :)-->
+        <img id="meIMG" src="assets/me2.jpg"></img>
+      </div>
+
+
+
+      <!--projects-->
+      <div id="landmark" class="container">
+          <a name="projects" class="col-lg-6"></a>
+      </div>
+      <div class="row float">
+        <div class="col-lg-4 text-right">
+          <h4 id="label">projects</h4>
+        </div>
+        
+        <!--project accordion-->
+        <div class = "col-sm-4">
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#spark">
+                  <img class="projects" src="https://media.giphy.com/media/iO7HX7uu2totLccFfx/giphy.gif"/>
+                  </a>
+                </h4>
+              </div>
+              <div id="spark" class="panel-collapse collapse">
+                <div class="panel-body"><a href="https://github.com/coe6/spark-app/tree/master" target="_blank">SPARK!</a> is an iOS app designed to test the user's ability to memorize a sequence of colors.
+                  The game will display a sequence of colors and it is up to the user to recreate this pattern in order to continue to the next level. With each progressing level,
+                  the game will build upon the previous pattern.</div>
+              </div>
+              </div>
+
+              <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#picPuppy">
+                    <img class="projects" src="https://media.giphy.com/media/2WdEk8ApcKohbl5pnS/giphy.gif"/>
+                  </a>
+                </h4>
+              </div>
+              <div id="picPuppy" class="panel-collapse collapse">
+                <div class="panel-body"><a href="https://github.com/coe6/Pic-a-Puppy-GUS-" target="_blank">Pic-A-Puppy</a> is an iOS app solely created for the purpose of displaying photos of my dog, Gus.
+                  The user is able to heart their favorite images and later view them in a separate album. The app will display the images in a random order every time the full photo album is opened.</div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      
+        <footer class="container">
+          <div class="row">
+            <p class="col-sm-4">&copy; Samantha Coe</p>
+            <ul class="col-sm-8">
+              <li id="hLINKS" class="col-sm-1">
+                <a href="mailto:coe6@purdue.edu" class="fa fa-envelope">
+                </a>
+              </li>
+              <li class="col-sm-1">
+                <a href="https://github.com/coe6" target="_blank" class="fa fa-github">
+                </a>
+              </li>
+              <li class="col-sm-1">
+                <a href="https://www.linkedin.com/in/samantha-coe/" target="_blank" class="fa fa-linkedin-square">
+                </a>
+              </li>
+              <li class="col-sm-1">
+                <a href="https://www.instagram.com/sam.coee/" target="_blank" class="fa fa-instagram">
+                </a>
+              </li>
+              <li class="col-sm-1">
+                <a href="/assets/SamCoe_resume.pdf" target="_blank" class="fa fa-file-text">
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+        </footer>
+      </div>
+
+    </div>
+  </body>
+</html>
+
+
+
+
+<!--bullet style links (TEMP)-->
+      <!-- <div id="hLINKS" class="col-lg-12">
+        <ul id="hLINKS" class="col-sm-8">
+          <li id="hLINKS" class="col-sm-1">
+            <a href="mailto:coe6@purdue.edu" class="fa fa-envelope">
+            </a>
+          </li>
+          <li class="col-sm-1">
+            <a href="https://github.com/coe6" target="_blank" class="fa fa-github">
+            </a>
+          </li>
+          <li class="col-sm-1">
+            <a href="https://www.linkedin.com/in/samantha-coe/" target="_blank" class="fa fa-linkedin-square">
+            </a>
+          </li>
+          <li class="col-sm-1">
+              <a href="https://www.instagram.com/sam.coee/" target="_blank" class="fa fa-instagram">
+              </a>
+            </li>
+          <li class="col-sm-1">
+            <a href="/assets/SamCoe_resume.pdf" target="_blank" class="fa fa-file-text">
+            </a>
+          </li>
+        </ul>
+      </div> -->

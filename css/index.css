@@ -47,41 +47,34 @@ footer li img {
 
 #description {
   text-align: justify;
-  margin-bottom: 60px;
-  padding: 10px;
   border-left: 1px solid #3a7831;
+  line-height: 20px;
+  padding: 10px;
 }
 
-h1 {
+.nameHead {
   color: black;
   font-size: 90px;
   text-align: left;
-  margin: 150px 0px 20px 25px;
   font-family: 'Roboto Slab', serif;
-  /* background-image: url(https://img1.picmix.com/output/stamp/normal/0/2/9/7/547920_b479c.gif); */
 }
 
-#label {
-  text-align: right;
-}
-
-#hLINKS ul {
-  list-style: none;
-  text-align: center;
-  margin: 0px 0px 400px 75px;
+#links {
+  text-align: left;
   font-size: 28px;
+  letter-spacing: 10px;
 }
 
-#hLINKS li img {
-  width: 25px;
-  height: 25px;
+#landmark {
+  margin: 0;
+  padding: 0;
 }
 
-a {
+a.scroll {
   color: #3a7831;
 }
 
-a:hover {
+a.scroll:hover {
   color: #4ad534;
   text-decoration: none;
 }
@@ -92,16 +85,17 @@ a.fa {
 
 a.fa:hover {
   color: #3a7831;
+  text-decoration: none;
 }
 
-.scroll {
+div.scroll, ul.scroll, li.scroll {
   margin-top: 15px;
   font-size: 16px;
   list-style: none;
-  text-align: center;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+  word-spacing: 40px;
 }
 
 #meIMG {
@@ -116,12 +110,24 @@ a.fa:hover {
   font-size: 14px;
 }
 
-.panel-default > .panel-heading {
+.panel-default>.panel-heading {
   background-color: white;
   background: none;
 }
 
 .panel {
   padding: 10px;
-  border: 1px solid #90a58c;
+  border: 1px solid lightgray;
 }
+
+/* #links ul {
+  list-style: none;
+  text-align: center;
+  margin: 0px 0px 400px 75px;
+  font-size: 28px;
+}
+
+#links li img {
+  width: 25px;
+  height: 25px;
+} */
