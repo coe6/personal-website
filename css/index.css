@@ -57,12 +57,14 @@ footer li img {
   font-size: 90px;
   text-align: left;
   font-family: 'Roboto Slab', serif;
+  margin-top: 175px;
 }
 
 #links {
   text-align: left;
   font-size: 28px;
   letter-spacing: 10px;
+  margin-bottom: 300px;
 }
 
 #landmark {
@@ -70,11 +72,11 @@ footer li img {
   padding: 0;
 }
 
-a.scroll {
+a.scroll, a {
   color: #3a7831;
 }
 
-a.scroll:hover {
+a.scroll:hover, a:hover {
   color: #4ad534;
   text-decoration: none;
 }
@@ -110,7 +112,7 @@ div.scroll, ul.scroll, li.scroll {
   font-size: 14px;
 }
 
-.panel-default>.panel-heading {
+#panel {
   background-color: white;
   background: none;
 }
