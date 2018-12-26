@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Karla:700i');
 
 html {
   scroll-behavior: smooth;
@@ -76,6 +77,12 @@ footer li img {
   margin-bottom: 300px;
 }
 
+#anchor {
+  margin: 0;
+  padding: 0;
+  top: -200px;
+}
+
 #landmark {
   margin: 0;
   padding: 0;
@@ -85,7 +92,7 @@ footer li img {
 #projectLabel {
   padding: 50px;
   background-color: #f2f2f2;
-
+  font-family: 'Archivo Narrow', sans-serif;
 }
 
 #proj {
@@ -96,7 +103,27 @@ footer li img {
 
 #projectDIV {
   width: 100%;
+  padding-bottom: 60px;
   background-color: #f2f2f2;
+}
+
+#info {
+  width: 35%;
+  margin: 20px;
+  display: inline-block;
+}
+
+#infoLabel {
+  margin: 0%;
+  padding: 50px;
+  background-color: #dcdcdc;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+#infoDIV {
+  width: 100%;
+  padding-bottom: 100px;
+  background-color: #dcdcdc;
 }
 
 a.scroll, a {
@@ -119,6 +146,7 @@ a.fa:hover {
 
 div.scroll {
   font-size: 16px;
+  font-family: 'Roboto Slab', serif;
   list-style: none;
   position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -131,10 +159,7 @@ div.scroll {
 }
 
 #meIMG {
-  width: 300px;
-  height: 300px;
-  border-radius: 200px;
-  margin-bottom: 500px;
+  width: 100%;
 }
 
 .panel-body {
