@@ -92,14 +92,16 @@ a.fa:hover {
 }
 
 div.scroll {
-  margin: 15px;
   font-size: 16px;
   list-style: none;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
   word-spacing: 40px;
-  background-color: white;
+  z-index: 1000;
+  width: 100%;
+  background-color: #fafafa;
+  line-height: 75px;
 }
 
 #meIMG {
