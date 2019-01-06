@@ -70,6 +70,13 @@ footer li img {
   margin-top: 175px;
 }
 
+.imgName {
+  width: 80%;
+  text-align: left;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 100px;
+}
+
 #links {
   text-align: left;
   font-size: 28px;
@@ -77,7 +84,7 @@ footer li img {
   margin-bottom: 300px;
 }
 
-#anchor {
+div#anchor{
   margin: 0;
   padding: 0;
   top: -200px;
