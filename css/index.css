@@ -137,7 +137,7 @@ a.scroll, a {
   color: #000000;
 }
 
-a.scroll:hover, a:hover {
+a.scroll:hover, a:hover, a:visited {
   color: #798ba8;
   text-decoration: none;
 }
